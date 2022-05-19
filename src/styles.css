@@ -1,0 +1,122 @@
+h1 {
+  color: #876464;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 10px 10px 20px;
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+}
+
+.dateInfo {
+  color: #127c56;
+  text-align: center;
+  font-family: "Poiret One", cursive;
+}
+
+.timeInfo {
+  text-align: center;
+  color: #127c56;
+  font-family: "Poiret One", cursive;
+}
+h4 {
+  text-align: center;
+  margin: 0 auto;
+  color: #876464;
+  font-family: initial;
+  font-size: 30px;
+}
+.container {
+  text-align: center;
+}
+
+#now {
+  padding: 20px;
+  margin: auto;
+}
+#currentTemp {
+  font-size: 60px;
+  color: #876464;
+  text-align: right;
+}
+#celsius:hover {
+  font-size: 25px;
+  color: red;
+}
+#fahrenheit:hover {
+  font-size: 25px;
+  color: red;
+}
+#weatherDetails {
+  font-size: 25px;
+  color: #876464;
+  text-align: left;
+}
+#weather {
+  font-size: 25px;
+  font-family: initial;
+  color: #876464;
+  text-align: center;
+  margin: auto;
+}
+.col-2 {
+  width: 15%;
+  border: 1px solid #876464;
+  border-radius: 20px;
+  padding: 10px 40px 10px;
+  margin: 1px 2px 2px 1px;
+  text-align: center;
+}
+
+#search {
+  font-size: 15px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #a96851;
+  box-shadow: rgba(132, 100, 100, 0.7) 0px 4px 8px 0;
+}
+#search:hover {
+  border: 2px solid #83afa6;
+}
+#changeCity {
+  font-size: 23px;
+  padding: 15px;
+  color: #876464;
+  font-family: "Comfortaa", cursive;
+  margin: 0 auto;
+  text-align: center;
+}
+#button {
+  font-size: 13px;
+  color: #876464;
+  background-color: white;
+  border-radius: 20px;
+  transition: all 200ms ease;
+  cursor: pointer;
+  border: 1px solid #a96851;
+}
+#button:hover {
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  color: white;
+  border: 2px solid #83afa6;
+}
+#currentLocationButton {
+  font-size: 13px;
+  color: #876464;
+  background-color: white;
+  border-radius: 20px;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 10px 8px 0;
+  cursor: pointer;
+  border: 1px solid #a96851;
+}
+#currentLocationButton:hover {
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  color: white;
+  border: 2px solid #83afa6;
+}
+body {
+  background-image: url(../src/waves.jpeg);
+  background-size: cover;
+}
